@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Poppins_Med';
+  src: url('./fonts/Poppins-Medium.ttf')
+}
+@font-face {
+  font-family: 'Poppins_Ultra';
+  src: url('./fonts/Poppins-Black.ttf')
+}
+@font-face {
+  font-family: 'Poppins_Bold';
+  src: url('./fonts/Poppins-Bold.ttf')
+}
+
+body {
+	font-family: Poppins_Med, sans-serif;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.navbar{
+	padding: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	font-size: 1.4em;
+}
+
+.w-100{
+	padding: 20px;
+	height: 85vh;
+}
+
+.dark-bg{
+	background-color: #F8FBFD;
+}
+
+.padded{
+	padding: 50px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.bold{
+	font-family: Poppins_Bold, sans-serif;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.flex-center{
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+img{
+	object-fit: contain;
+	object-position: center;
+}
+
+.size-400{
+	height: 400px;
+}
+
+.size-300{
+	height: 300px;
+}
+
+.size-200{
+	height: 200px;
+}
+
+.size-50{
+	height: 50px;
+	width: 50px;
+}
+
+.zoom{
+	transition: 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2, 1.2);
+}
+
+a{
+	cursor: pointer;
+}
+
+.btn{
+	font-size: 1.5em;
+}
+
+.fas{
+	padding-right: 20px;
+	font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+	.padded{
+		padding: 10px;
+	}
+
+	.size-400{
+		height: 300px;
+		max-width: 300px;
+	}
+
+	.size-300{
+		height: 200px;
+		max-width: 300px;
+	}
+
+	.size-200{
+		height: 200px;
+		max-width: 300px;
+		display: block;
+		margin: 10px auto;
+	}
+}
